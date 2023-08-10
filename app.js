@@ -6,7 +6,7 @@ app.get("/",(req,res)=>{
     res.send("welcome this is mypage")
 });
 app.get("/akash",(req,res)=>{
-    res.send("aksh page")
+    res.send("akash page")
 });
 const port = process.env.port || 3000;
 app.listen(port,()=>{
